@@ -1,0 +1,218 @@
+[18-Jan-2022 23:54:30 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'project_files' not found or invalid function name in /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php on line 303
+[18-Jan-2022 23:54:30 UTC] PHP Stack trace:
+[18-Jan-2022 23:54:30 UTC] PHP   1. {main}() /Users/mbowler/Local Sites/oyova-new/app/public/index.php:0
+[18-Jan-2022 23:54:30 UTC] PHP   2. require() /Users/mbowler/Local Sites/oyova-new/app/public/index.php:17
+[18-Jan-2022 23:54:30 UTC] PHP   3. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-blog-header.php:19
+[18-Jan-2022 23:54:30 UTC] PHP   4. include() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/template-loader.php:106
+[18-Jan-2022 23:54:30 UTC] PHP   5. get_header() /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/index.php:1
+[18-Jan-2022 23:54:30 UTC] PHP   6. locate_template() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/general-template.php:48
+[18-Jan-2022 23:54:30 UTC] PHP   7. load_template() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/template.php:716
+[18-Jan-2022 23:54:30 UTC] PHP   8. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/template.php:770
+[18-Jan-2022 23:54:30 UTC] PHP   9. wp_head() /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/header.php:4
+[18-Jan-2022 23:54:30 UTC] PHP  10. do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/general-template.php:3015
+[18-Jan-2022 23:54:30 UTC] PHP  11. WP_Hook->do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/plugin.php:470
+[18-Jan-2022 23:54:30 UTC] PHP  12. WP_Hook->apply_filters() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:327
+[18-Jan-2022 23:54:30 UTC] PHP  13. wp_enqueue_scripts() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:303
+[18-Jan-2022 23:54:30 UTC] PHP  14. do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/script-loader.php:2083
+[18-Jan-2022 23:54:30 UTC] PHP  15. WP_Hook->do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/plugin.php:470
+[18-Jan-2022 23:54:30 UTC] PHP  16. WP_Hook->apply_filters() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:327
+[18-Jan-2022 23:54:30 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'project_files' not found or invalid function name in /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php on line 303
+[18-Jan-2022 23:54:30 UTC] PHP Stack trace:
+[18-Jan-2022 23:54:30 UTC] PHP   1. {main}() /Users/mbowler/Local Sites/oyova-new/app/public/index.php:0
+[18-Jan-2022 23:54:30 UTC] PHP   2. require() /Users/mbowler/Local Sites/oyova-new/app/public/index.php:17
+[18-Jan-2022 23:54:30 UTC] PHP   3. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-blog-header.php:19
+[18-Jan-2022 23:54:30 UTC] PHP   4. include() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/template-loader.php:106
+[18-Jan-2022 23:54:30 UTC] PHP   5. get_header() /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/index.php:1
+[18-Jan-2022 23:54:30 UTC] PHP   6. locate_template() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/general-template.php:48
+[18-Jan-2022 23:54:30 UTC] PHP   7. load_template() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/template.php:716
+[18-Jan-2022 23:54:30 UTC] PHP   8. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/template.php:770
+[18-Jan-2022 23:54:30 UTC] PHP   9. wp_head() /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/header.php:4
+[18-Jan-2022 23:54:30 UTC] PHP  10. do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/general-template.php:3015
+[18-Jan-2022 23:54:30 UTC] PHP  11. WP_Hook->do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/plugin.php:470
+[18-Jan-2022 23:54:30 UTC] PHP  12. WP_Hook->apply_filters() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:327
+[18-Jan-2022 23:54:30 UTC] PHP  13. wp_enqueue_scripts() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:303
+[18-Jan-2022 23:54:30 UTC] PHP  14. do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/script-loader.php:2083
+[18-Jan-2022 23:54:30 UTC] PHP  15. WP_Hook->do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/plugin.php:470
+[18-Jan-2022 23:54:30 UTC] PHP  16. WP_Hook->apply_filters() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:327
+[18-Jan-2022 23:54:31 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'project_files' not found or invalid function name in /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php on line 303
+[18-Jan-2022 23:54:31 UTC] PHP Stack trace:
+[18-Jan-2022 23:54:31 UTC] PHP   1. {main}() /Users/mbowler/Local Sites/oyova-new/app/public/index.php:0
+[18-Jan-2022 23:54:31 UTC] PHP   2. require() /Users/mbowler/Local Sites/oyova-new/app/public/index.php:17
+[18-Jan-2022 23:54:31 UTC] PHP   3. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-blog-header.php:19
+[18-Jan-2022 23:54:31 UTC] PHP   4. include() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/template-loader.php:106
+[18-Jan-2022 23:54:31 UTC] PHP   5. get_header() /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/index.php:1
+[18-Jan-2022 23:54:31 UTC] PHP   6. locate_template() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/general-template.php:48
+[18-Jan-2022 23:54:31 UTC] PHP   7. load_template() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/template.php:716
+[18-Jan-2022 23:54:31 UTC] PHP   8. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/template.php:770
+[18-Jan-2022 23:54:31 UTC] PHP   9. wp_head() /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/header.php:4
+[18-Jan-2022 23:54:31 UTC] PHP  10. do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/general-template.php:3015
+[18-Jan-2022 23:54:31 UTC] PHP  11. WP_Hook->do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/plugin.php:470
+[18-Jan-2022 23:54:31 UTC] PHP  12. WP_Hook->apply_filters() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:327
+[18-Jan-2022 23:54:31 UTC] PHP  13. wp_enqueue_scripts() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:303
+[18-Jan-2022 23:54:31 UTC] PHP  14. do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/script-loader.php:2083
+[18-Jan-2022 23:54:31 UTC] PHP  15. WP_Hook->do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/plugin.php:470
+[18-Jan-2022 23:54:31 UTC] PHP  16. WP_Hook->apply_filters() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:327
+[18-Jan-2022 23:54:31 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'project_files' not found or invalid function name in /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php on line 303
+[18-Jan-2022 23:54:31 UTC] PHP Stack trace:
+[18-Jan-2022 23:54:31 UTC] PHP   1. {main}() /Users/mbowler/Local Sites/oyova-new/app/public/index.php:0
+[18-Jan-2022 23:54:31 UTC] PHP   2. require() /Users/mbowler/Local Sites/oyova-new/app/public/index.php:17
+[18-Jan-2022 23:54:31 UTC] PHP   3. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-blog-header.php:19
+[18-Jan-2022 23:54:31 UTC] PHP   4. include() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/template-loader.php:106
+[18-Jan-2022 23:54:31 UTC] PHP   5. get_header() /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/index.php:1
+[18-Jan-2022 23:54:31 UTC] PHP   6. locate_template() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/general-template.php:48
+[18-Jan-2022 23:54:31 UTC] PHP   7. load_template() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/template.php:716
+[18-Jan-2022 23:54:31 UTC] PHP   8. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/template.php:770
+[18-Jan-2022 23:54:31 UTC] PHP   9. wp_head() /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/header.php:4
+[18-Jan-2022 23:54:31 UTC] PHP  10. do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/general-template.php:3015
+[18-Jan-2022 23:54:31 UTC] PHP  11. WP_Hook->do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/plugin.php:470
+[18-Jan-2022 23:54:31 UTC] PHP  12. WP_Hook->apply_filters() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:327
+[18-Jan-2022 23:54:31 UTC] PHP  13. wp_enqueue_scripts() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:303
+[18-Jan-2022 23:54:31 UTC] PHP  14. do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/script-loader.php:2083
+[18-Jan-2022 23:54:31 UTC] PHP  15. WP_Hook->do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/plugin.php:470
+[18-Jan-2022 23:54:31 UTC] PHP  16. WP_Hook->apply_filters() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:327
+[19-Jan-2022 00:18:54 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'project_files' not found or invalid function name in /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php on line 303
+[19-Jan-2022 00:18:54 UTC] PHP Stack trace:
+[19-Jan-2022 00:18:54 UTC] PHP   1. {main}() /Users/mbowler/Local Sites/oyova-new/app/public/index.php:0
+[19-Jan-2022 00:18:54 UTC] PHP   2. require() /Users/mbowler/Local Sites/oyova-new/app/public/index.php:17
+[19-Jan-2022 00:18:54 UTC] PHP   3. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-blog-header.php:19
+[19-Jan-2022 00:18:54 UTC] PHP   4. include() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/template-loader.php:106
+[19-Jan-2022 00:18:54 UTC] PHP   5. get_header() /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/index.php:1
+[19-Jan-2022 00:18:54 UTC] PHP   6. locate_template() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/general-template.php:48
+[19-Jan-2022 00:18:54 UTC] PHP   7. load_template() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/template.php:716
+[19-Jan-2022 00:18:54 UTC] PHP   8. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/template.php:770
+[19-Jan-2022 00:18:54 UTC] PHP   9. wp_head() /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/header.php:4
+[19-Jan-2022 00:18:54 UTC] PHP  10. do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/general-template.php:3015
+[19-Jan-2022 00:18:54 UTC] PHP  11. WP_Hook->do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/plugin.php:470
+[19-Jan-2022 00:18:54 UTC] PHP  12. WP_Hook->apply_filters() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:327
+[19-Jan-2022 00:18:54 UTC] PHP  13. wp_enqueue_scripts() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:303
+[19-Jan-2022 00:18:54 UTC] PHP  14. do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/script-loader.php:2083
+[19-Jan-2022 00:18:54 UTC] PHP  15. WP_Hook->do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/plugin.php:470
+[19-Jan-2022 00:18:54 UTC] PHP  16. WP_Hook->apply_filters() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:327
+[19-Jan-2022 00:20:00 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'project_files' not found or invalid function name in /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php on line 303
+[19-Jan-2022 00:20:00 UTC] PHP Stack trace:
+[19-Jan-2022 00:20:00 UTC] PHP   1. {main}() /Users/mbowler/Local Sites/oyova-new/app/public/index.php:0
+[19-Jan-2022 00:20:00 UTC] PHP   2. require() /Users/mbowler/Local Sites/oyova-new/app/public/index.php:17
+[19-Jan-2022 00:20:00 UTC] PHP   3. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-blog-header.php:19
+[19-Jan-2022 00:20:00 UTC] PHP   4. include() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/template-loader.php:106
+[19-Jan-2022 00:20:00 UTC] PHP   5. get_header() /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/index.php:1
+[19-Jan-2022 00:20:00 UTC] PHP   6. locate_template() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/general-template.php:48
+[19-Jan-2022 00:20:00 UTC] PHP   7. load_template() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/template.php:716
+[19-Jan-2022 00:20:00 UTC] PHP   8. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/template.php:770
+[19-Jan-2022 00:20:00 UTC] PHP   9. wp_head() /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/header.php:4
+[19-Jan-2022 00:20:00 UTC] PHP  10. do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/general-template.php:3015
+[19-Jan-2022 00:20:00 UTC] PHP  11. WP_Hook->do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/plugin.php:470
+[19-Jan-2022 00:20:00 UTC] PHP  12. WP_Hook->apply_filters() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:327
+[19-Jan-2022 00:20:00 UTC] PHP  13. wp_enqueue_scripts() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:303
+[19-Jan-2022 00:20:00 UTC] PHP  14. do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/script-loader.php:2083
+[19-Jan-2022 00:20:00 UTC] PHP  15. WP_Hook->do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/plugin.php:470
+[19-Jan-2022 00:20:00 UTC] PHP  16. WP_Hook->apply_filters() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:327
+[19-Jan-2022 18:16:00 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'project_post_types' not found or invalid function name in /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php on line 303
+[19-Jan-2022 18:16:00 UTC] PHP Stack trace:
+[19-Jan-2022 18:16:00 UTC] PHP   1. {main}() /Users/mbowler/Local Sites/oyova-new/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2022 18:16:00 UTC] PHP   2. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2022 18:16:00 UTC] PHP   3. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-load.php:50
+[19-Jan-2022 18:16:00 UTC] PHP   4. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-config.php:77
+[19-Jan-2022 18:16:00 UTC] PHP   5. do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-settings.php:578
+[19-Jan-2022 18:16:00 UTC] PHP   6. WP_Hook->do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/plugin.php:470
+[19-Jan-2022 18:16:00 UTC] PHP   7. WP_Hook->apply_filters() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:327
+[19-Jan-2022 18:16:02 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'project_post_types' not found or invalid function name in /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php on line 303
+[19-Jan-2022 18:16:02 UTC] PHP Stack trace:
+[19-Jan-2022 18:16:02 UTC] PHP   1. {main}() /Users/mbowler/Local Sites/oyova-new/app/public/index.php:0
+[19-Jan-2022 18:16:02 UTC] PHP   2. require() /Users/mbowler/Local Sites/oyova-new/app/public/index.php:17
+[19-Jan-2022 18:16:02 UTC] PHP   3. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-blog-header.php:13
+[19-Jan-2022 18:16:02 UTC] PHP   4. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-load.php:50
+[19-Jan-2022 18:16:02 UTC] PHP   5. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-config.php:77
+[19-Jan-2022 18:16:02 UTC] PHP   6. do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-settings.php:578
+[19-Jan-2022 18:16:02 UTC] PHP   7. WP_Hook->do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/plugin.php:470
+[19-Jan-2022 18:16:02 UTC] PHP   8. WP_Hook->apply_filters() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:327
+[19-Jan-2022 18:16:02 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'project_post_types' not found or invalid function name in /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php on line 303
+[19-Jan-2022 18:16:02 UTC] PHP Stack trace:
+[19-Jan-2022 18:16:02 UTC] PHP   1. {main}() /Users/mbowler/Local Sites/oyova-new/app/public/index.php:0
+[19-Jan-2022 18:16:02 UTC] PHP   2. require() /Users/mbowler/Local Sites/oyova-new/app/public/index.php:17
+[19-Jan-2022 18:16:02 UTC] PHP   3. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-blog-header.php:13
+[19-Jan-2022 18:16:02 UTC] PHP   4. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-load.php:50
+[19-Jan-2022 18:16:02 UTC] PHP   5. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-config.php:77
+[19-Jan-2022 18:16:02 UTC] PHP   6. do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-settings.php:578
+[19-Jan-2022 18:16:02 UTC] PHP   7. WP_Hook->do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/plugin.php:470
+[19-Jan-2022 18:16:02 UTC] PHP   8. WP_Hook->apply_filters() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:327
+[19-Jan-2022 18:18:01 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/functions.php on line 14
+[19-Jan-2022 18:21:41 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/functions.php on line 17
+[19-Jan-2022 18:24:08 UTC] PHP Parse error:  syntax error, unexpected ''labels'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/functions.php on line 16
+[19-Jan-2022 18:24:23 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/functions.php on line 16
+[19-Jan-2022 18:25:01 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/functions.php on line 16
+[19-Jan-2022 18:25:16 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/functions.php on line 16
+[19-Jan-2022 18:26:25 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/functions.php on line 16
+[19-Jan-2022 18:26:40 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/functions.php on line 16
+[19-Jan-2022 19:24:34 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/index.php on line 20
+[19-Jan-2022 22:53:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/front-page.php on line 39
+[19-Jan-2022 23:12:41 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/front-page.php on line 40
+[20-Jan-2022 00:52:22 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'de' not found or invalid function name in /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php on line 303
+[20-Jan-2022 00:52:22 UTC] PHP Stack trace:
+[20-Jan-2022 00:52:22 UTC] PHP   1. {main}() /Users/mbowler/Local Sites/oyova-new/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2022 00:52:22 UTC] PHP   2. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2022 00:52:22 UTC] PHP   3. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-load.php:50
+[20-Jan-2022 00:52:22 UTC] PHP   4. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-config.php:77
+[20-Jan-2022 00:52:22 UTC] PHP   5. do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-settings.php:578
+[20-Jan-2022 00:52:22 UTC] PHP   6. WP_Hook->do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/plugin.php:470
+[20-Jan-2022 00:52:22 UTC] PHP   7. WP_Hook->apply_filters() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:327
+[20-Jan-2022 00:52:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function '' not found or invalid function name in /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php on line 303
+[20-Jan-2022 00:52:37 UTC] PHP Stack trace:
+[20-Jan-2022 00:52:37 UTC] PHP   1. {main}() /Users/mbowler/Local Sites/oyova-new/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2022 00:52:37 UTC] PHP   2. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2022 00:52:37 UTC] PHP   3. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-load.php:50
+[20-Jan-2022 00:52:37 UTC] PHP   4. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-config.php:77
+[20-Jan-2022 00:52:37 UTC] PHP   5. do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-settings.php:578
+[20-Jan-2022 00:52:37 UTC] PHP   6. WP_Hook->do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/plugin.php:470
+[20-Jan-2022 00:52:37 UTC] PHP   7. WP_Hook->apply_filters() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:327
+[20-Jan-2022 00:52:59 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'program_post_types' not found or invalid function name in /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php on line 303
+[20-Jan-2022 00:52:59 UTC] PHP Stack trace:
+[20-Jan-2022 00:52:59 UTC] PHP   1. {main}() /Users/mbowler/Local Sites/oyova-new/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2022 00:52:59 UTC] PHP   2. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2022 00:52:59 UTC] PHP   3. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-load.php:50
+[20-Jan-2022 00:52:59 UTC] PHP   4. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-config.php:77
+[20-Jan-2022 00:52:59 UTC] PHP   5. do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-settings.php:578
+[20-Jan-2022 00:52:59 UTC] PHP   6. WP_Hook->do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/plugin.php:470
+[20-Jan-2022 00:52:59 UTC] PHP   7. WP_Hook->apply_filters() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:327
+[20-Jan-2022 00:53:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'program_post_types' not found or invalid function name in /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php on line 303
+[20-Jan-2022 00:53:14 UTC] PHP Stack trace:
+[20-Jan-2022 00:53:14 UTC] PHP   1. {main}() /Users/mbowler/Local Sites/oyova-new/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2022 00:53:14 UTC] PHP   2. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2022 00:53:14 UTC] PHP   3. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-load.php:50
+[20-Jan-2022 00:53:14 UTC] PHP   4. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-config.php:77
+[20-Jan-2022 00:53:14 UTC] PHP   5. do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-settings.php:578
+[20-Jan-2022 00:53:14 UTC] PHP   6. WP_Hook->do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/plugin.php:470
+[20-Jan-2022 00:53:14 UTC] PHP   7. WP_Hook->apply_filters() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:327
+[20-Jan-2022 00:53:29 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'program_post_types' not found or invalid function name in /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php on line 303
+[20-Jan-2022 00:53:29 UTC] PHP Stack trace:
+[20-Jan-2022 00:53:29 UTC] PHP   1. {main}() /Users/mbowler/Local Sites/oyova-new/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2022 00:53:29 UTC] PHP   2. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2022 00:53:29 UTC] PHP   3. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-load.php:50
+[20-Jan-2022 00:53:29 UTC] PHP   4. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-config.php:77
+[20-Jan-2022 00:53:29 UTC] PHP   5. do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-settings.php:578
+[20-Jan-2022 00:53:29 UTC] PHP   6. WP_Hook->do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/plugin.php:470
+[20-Jan-2022 00:53:29 UTC] PHP   7. WP_Hook->apply_filters() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:327
+[20-Jan-2022 00:53:44 UTC] PHP Parse error:  syntax error, unexpected 'add_action' (T_STRING), expecting '(' in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/functions.php on line 13
+[20-Jan-2022 00:54:45 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/functions.php on line 14
+[20-Jan-2022 00:55:00 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/functions.php on line 14
+[20-Jan-2022 00:55:15 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/functions.php on line 16
+[20-Jan-2022 00:55:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/functions.php on line 16
+[20-Jan-2022 00:55:48 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/functions.php on line 16
+[20-Jan-2022 00:56:06 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/functions.php on line 16
+[20-Jan-2022 00:56:21 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/functions.php on line 16
+[20-Jan-2022 00:56:36 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/functions.php on line 16
+[20-Jan-2022 00:56:55 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/functions.php on line 16
+[20-Jan-2022 00:57:10 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/functions.php on line 16
+[20-Jan-2022 11:47:41 UTC] PHP Parse error:  syntax error, unexpected ''labels'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/mu-plugins/program-post-types.php on line 11
+[20-Jan-2022 16:33:35 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'project_features' not found or invalid function name in /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php on line 303
+[20-Jan-2022 16:33:35 UTC] PHP Stack trace:
+[20-Jan-2022 16:33:35 UTC] PHP   1. {main}() /Users/mbowler/Local Sites/oyova-new/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2022 16:33:35 UTC] PHP   2. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2022 16:33:35 UTC] PHP   3. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-load.php:50
+[20-Jan-2022 16:33:35 UTC] PHP   4. require_once() /Users/mbowler/Local Sites/oyova-new/app/public/wp-config.php:77
+[20-Jan-2022 16:33:35 UTC] PHP   5. do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-settings.php:556
+[20-Jan-2022 16:33:35 UTC] PHP   6. WP_Hook->do_action() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/plugin.php:470
+[20-Jan-2022 16:33:35 UTC] PHP   7. WP_Hook->apply_filters() /Users/mbowler/Local Sites/oyova-new/app/public/wp-includes/class-wp-hook.php:327
+[20-Jan-2022 19:58:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/functions.php on line 35
+[20-Jan-2022 19:58:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/functions.php on line 35
+[20-Jan-2022 19:58:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/functions.php on line 35
+[20-Jan-2022 21:16:16 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mbowler/Local Sites/oyova-new/app/public/wp-content/themes/mb-general/functions.php on line 17
