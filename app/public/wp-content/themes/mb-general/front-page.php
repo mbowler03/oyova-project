@@ -8,8 +8,6 @@
 </div>
 </div>
 
-
-
 <div class="full-width-split__two">
     <div class="full-width-split__inner">
       <h2 class="headline headline--small-plus t-center">From the Blog</h2>

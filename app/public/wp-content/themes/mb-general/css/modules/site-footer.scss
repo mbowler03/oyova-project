@@ -1,73 +1,30 @@
-.site-footer {
-  padding: 2rem 0 3.5rem 0;
-  background-image: linear-gradient(#fff, #ececec);
 
-  p {
-    font-size: 0.9rem;
-  }
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  z-index: 1;
+  width: 100%;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+}
 
-  .headline {
-    color: #666;
-    margin-bottom: 0.33rem;
-  }
+.navbar ul {
+  display: flex;
+}
 
-  &__link {
-    color: #999;
-    text-decoration: none;
-  }
+.navbar a {
+  color: #fff;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+}
 
-  &__link:hover {
-    color: $mainBlue;
-    text-decoration: underline;
-  }
+.navbar a:hover {
+  color: var(--light-color);
+}
 
-  &__inner {
-    border-top: 1px dotted #dedede;
-    padding-top: 3.5rem;
-  }
-
-  &__col-one {
-    text-align: center;
-    @include atMedium {
-      text-align: left;
-      width: 33%;
-      float: left;
-    }
-  }
-
-  &__col-two-three-group {
-    text-align: center;
-    width: 85%;
-    margin: 0 auto;
-    @include atMedium {
-      text-align: left;
-      float: left;
-      width: 42%;
-      margin: 0;
-    }
-  }
-
-  &__col-two {
-    width: 50%;
-    float: left;
-  }
-  &__col-three {
-    width: 50%;
-    float: left;
-  }
-  &__col-four {
-    padding-top: 20px;
-    width: 85%;
-    margin: 0 auto;
-    clear: both;
-    text-align: center;
-    @include atMedium {
-      padding-top: 0;
-      margin: 0;
-      clear: none;
-      text-align: left;
-      width: 25%;
-      float: right;
-    }
-  }
+.navbar .welcome span {
+  margin-right: 0.6rem;
 }
