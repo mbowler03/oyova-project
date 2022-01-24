@@ -19,9 +19,7 @@ function project_features() {
   add_action('after_setup_theme', 'project_features');
   
   function project_adjust_queries($query) {
-    if (!is_admin() AND is_post_type_archive('department') AND $query->is_main_query()) {
-        $query->set('posts_per_page', -1);
-      }
+
     if (!is_admin() AND is_post_type_archive('staff') AND $query->is_main_query()) {
         $query->set('posts_per_page', -1);
       }
@@ -30,22 +28,3 @@ function project_features() {
   add_action('pre_get_posts', 'project_adjust_queries');
 
 
-  function acf_staff_item_block() {
-	
-	// check function exists
-	if( function_exists('acf_register_block') ) {
-		
-		// register a staff item block
-		acf_register_block(array(
-			'name'				=> 'staff-member',
-			'title'				=> __('Staff Member Item'),
-			'description'		=> __('A custom block for adding staff members.'),
-			'render_template'	=> 'template-parts/blocks/staff-member/block-staff-member.php',
-			'category'			=> 'layout',
-			'icon'				=> 'excerpt-view',
-			'keywords'			=> array( 'staff' ),
-		));
-	}
-}
-
-add_action('acf/init', 'acf_staff_item_block');

@@ -7,6 +7,9 @@
   <h2 class="headline headline--small">I hope you like it!</h2>
 </div>
 </div>
+
+
+
 <div class="full-width-split__two">
     <div class="full-width-split__inner">
       <h2 class="headline headline--small-plus t-center">From the Blog</h2>
@@ -14,7 +17,6 @@
       $homepagePosts = new WP_Query(array(
         'posts_per_page' => 2
       ));
-
 
       while ($homepagePosts->have_posts()) {
         $homepagePosts->the_post(); ?>
