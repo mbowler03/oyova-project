@@ -9,16 +9,22 @@
 </div>
 
 <div class="container container--narrow page-section">
-      <h2 class="headline headline--small-plus">Employee of the Month</h2> 
+      <h2 class="headline headline--small-plus">Employee of the Month:</h2> 
       <?php 
+    
       $staffPosts = new WP_Query(array(
         'post_type' => 'staff',
-        'posts_per_page' => 1
+        'posts_per_page' => 1,
+        'meta_key' => 'employee_of_the_month',
+        'orderby' => 'meta_value',
+        'order' => 'ASC',
       ));
 
       while($staffPosts->have_posts()) {
         $staffPosts->the_post(); ?>
+        <h3 class="headline headline--small-plus">
         <a href="<?php the_permalink(); ?>"><?php the_title();?></a>
+        </h3>
         <div class="staff-card"><?php the_post_thumbnail(); ?></div>
        
 <?php    
@@ -26,7 +32,7 @@
 ?>     
 
 <div class="container container--narrow page-section">
-      <h2 class="headline headline--small-plus">From the Blog</h2>
+      <h2 class="headline headline--small-plus">From the Blog:</h2>
       <?php 
       $homepagePosts = new WP_Query(array(
         'posts_per_page' => 2
