@@ -8,9 +8,25 @@
 </div>
 </div>
 
-<div class="full-width-split__two">
-    <div class="full-width-split__inner">
-      <h2 class="headline headline--small-plus t-center">From the Blog</h2>
+<div class="container container--narrow page-section">
+      <h2 class="headline headline--small-plus">Employee of the Month</h2> 
+      <?php 
+      $staffPosts = new WP_Query(array(
+        'post_type' => 'staff',
+        'posts_per_page' => 1
+      ));
+
+      while($staffPosts->have_posts()) {
+        $staffPosts->the_post(); ?>
+        <a href="<?php the_permalink(); ?>"><?php the_title();?></a>
+        <div class="staff-card"><?php the_post_thumbnail(); ?></div>
+       
+<?php    
+      }
+?>     
+
+<div class="container container--narrow page-section">
+      <h2 class="headline headline--small-plus">From the Blog</h2>
       <?php 
       $homepagePosts = new WP_Query(array(
         'posts_per_page' => 2
@@ -33,7 +49,7 @@
         </div>
       </div>
       </div>
-    
+      
 <?php 
 } 
 get_footer();

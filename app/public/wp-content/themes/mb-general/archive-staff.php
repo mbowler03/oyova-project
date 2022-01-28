@@ -13,10 +13,14 @@ get_header(); ?>
 
 <ul class="link-list min-list">
 
+
 <?php
   while(have_posts()) {
     the_post(); ?>
-    <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+    <li><a href="<?php the_permalink(); ?>"><?php the_title();?></a></li>
+    <li>
+    <div class="staff-card"><?php the_post_thumbnail(); ?></div>
+    
   <?php }
   echo paginate_links();
 ?>
